@@ -6,7 +6,7 @@ const sponsors = [
   {
     tier: "Title Sponsor",
     name: "BITSAANA",
-    logo: "/images/Bitsaana.jpg",
+    logo: "/images/bitsana.webp",
   },
   {
     tier: "Event Sponsor",
@@ -100,42 +100,35 @@ const SponsorSection = () => {
           </div>
         </div> */}
 
-     {/* Perfect Circular Sponsor Layout */}
-<div className="flex flex-wrap justify-center gap-20 mt-20">
-
-  {sponsors.map((sponsor, index) => (
-    <div
-      key={index}
-      className="group flex flex-col items-center"
-    >
-      
-      {/* Perfect Circle */}
-      <div
-        className="relative w-52 h-52 
+        {/* Perfect Circular Sponsor Layout */}
+        <div className="flex flex-wrap justify-center gap-20 mt-20">
+          {sponsors.map((sponsor, index) => (
+            <div key={index} className="group flex flex-col items-center">
+              {/* Perfect Circle */}
+              <div
+                className="relative w-52 h-52 
                    flex items-center justify-center 
                    rounded-full 
                    bg-white 
                    transition-all duration-500 
                    group-hover:scale-105"
-      >
-        <Image
-          src={sponsor.logo}
-          alt={sponsor.name}
-          fill
-          sizes="208px"
-          className="object-contain p-10"
-        />
-      </div>
+              >
+                <Image
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  fill
+                  sizes="208px"
+                  className="object-contain p-10"
+                />
+              </div>
 
-      {/* Sponsor Name */}
-      <p className="mt-6 text-white text-lg font-semibold text-center">
-        {sponsor.name}
-      </p>
-
-    </div>
-  ))}
-
-</div>
+              {/* Sponsor Name */}
+              <p className="mt-6 text-white text-lg font-semibold text-center">
+                {sponsor.name}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -131,7 +131,7 @@ const executiveMembers = [
     socials: {
       linkedin: "https://www.linkedin.com/in/manoharjhaa/",
       instagram:
-      "https://www.instagram.com/_manohar.jha_5?igsh=b2ZkYjExcjV2cmFq",
+        "https://www.instagram.com/_manohar.jha_5?igsh=b2ZkYjExcjV2cmFq",
       mail: "mailto:manoharjha809@gmail.com",
     },
   },
@@ -185,9 +185,9 @@ const associateMembers = [
     image: "/team/rahul.png",
     socials: {
       linkedin:
-      "https://www.linkedin.com/in/rahul-kumar-98b607290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "https://www.linkedin.com/in/rahul-kumar-98b607290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagram:
-      "https://www.instagram.com/im_rahul3651?igsh=MTVpd3BhZm5mYnl5MA==",
+        "https://www.instagram.com/im_rahul3651?igsh=MTVpd3BhZm5mYnl5MA==",
       mail: "mailto:rahul.iic@bitsindri.ac.in",
     },
   },
@@ -362,7 +362,7 @@ const coordinators = [
   {
     name: "Mantasha Fatima",
     role: "Editorial",
-    image: "/team/Mantasha.png",
+    image: "/team/mantasha.png",
     socials: {
       linkedin:
         "https://www.linkedin.com/in/mantasha-fatima-b9016b346?utm_source=share_via&utm_content=profile&utm_medium=member_android",
