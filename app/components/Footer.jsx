@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="h-12 w-auto flex items-center">
                 <a href="/" alt="E-Summit">
                   <Image
-                    src="/images/E-SUMMIT-06.webp"
+                    src="/images/E-SUMMIT_front.webp"
                     alt="Logo"
                     width={160}
                     height={160}

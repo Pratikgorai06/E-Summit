@@ -47,9 +47,9 @@ const mainPartners = [
     imageSize: "large", // 👈 added
   },
   {
-    name: "Custkart",
+    name: "Secret Box",
     type: "Merchandise Partner",
-    image: "/images/custkart.webp",
+    image: "/images/secretbox.png",
     color: "from-blue-600 via-indigo-500 to-purple-500",
     imageSize: "large", // 👈 added
   },
