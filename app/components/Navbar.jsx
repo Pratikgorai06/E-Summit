@@ -19,6 +19,7 @@ const Navbar = () => {
     { name: "Timeline", href: "/Timeline" },
     { name: "Sponsors", href: "/Sponsors" },
     { name: "Team", href: "/Team" },
+    { name: "Venue", href: "/Venue" },
   ];
 
   const mobileNavItems = [
@@ -28,6 +29,7 @@ const Navbar = () => {
     { name: "Timeline", href: "/Timeline" },
     { name: "Sponsors", href: "/Sponsors" },
     { name: "Team", href: "/Team" },
+    { name: "Venue", href: "/Venue" },
   ];
 
   const pathname = usePathname();
@@ -54,7 +56,7 @@ const Navbar = () => {
       className={`absolute md:fixed top-0 left-0 right-0 z-50 flex justify-center transition-all duration-500 font-kiona!`}
     >
       <div
-        className={`relative w-full max-w-full flex items-center justify-between px-2 md:px-10 transition-all duration-500 md:backdrop-blur-2xl py-4`}
+        className={`relative w-full max-w-full flex items-center justify-between px-6 md:px-12 transition-all duration-500 ${scrolled ? "bg-black/60 backdrop-blur-2xl border-b border-white/5 py-3" : "py-6"}`}
       >
         <Link
           href="/"
@@ -80,7 +82,7 @@ const Navbar = () => {
 
         {/* Desktop Nav Links */}
         <div
-          className="hidden md:flex items-center justify-between w-100 h-12.5"
+          className="hidden md:flex flex-1 items-center justify-center gap-1 lg:gap-4 mx-4"
           onMouseLeave={() => setHovered(null)}
         >
           {navItems.map((item) => (
@@ -98,13 +100,12 @@ const Navbar = () => {
                 />
               )}
               <span
-                className={`relative px-2 z-10 flex justify-center items-center transition-colors duration-200 ${
-                  activeItem === item.name
+                className={`relative px-2 z-10 flex justify-center items-center transition-colors duration-200 ${activeItem === item.name
                     ? "text-accent-100"
                     : hovered === item.name
                       ? "text-accent-300"
                       : "text-white"
-                }`}
+                  }`}
               >
                 {item.name}
               </span>
