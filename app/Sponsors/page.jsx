@@ -37,21 +37,49 @@ const mainPartners = [
     type: "Technical Partner",
     image: "/images/texmin.webp",
     color: "from-blue-600 via-indigo-500 to-purple-500",
-    imageSize: "large", // 👈 added
+    imageSize: "large",
   },
   {
     name: "HDFC Bank",
     type: "Banking Partner",
     image: "/images/hdfc.webp",
     color: "from-purple-600 via-fuchsia-500 to-indigo-500",
-    imageSize: "large", // 👈 added
+    imageSize: "large",
   },
   {
     name: "Secret Box",
     type: "Merchandise Partner",
     image: "/images/secretbox.png",
     color: "from-blue-600 via-indigo-500 to-purple-500",
-    imageSize: "large", // 👈 added
+    imageSize: "large",
+  },
+  {
+    name: "Dhanbad Lover",
+    type: "Media Partner",
+    image: "/images/dhn-lover.png",
+    color: "from-purple-600 via-fuchsia-500 to-indigo-500",
+    imageSize: "large",
+  },
+  {
+    name: "Bisleri",
+    type: "Hydration Partner",
+    image: "/images/bisleri.jpg",
+    color: "from-blue-600 via-indigo-500 to-purple-500",
+    imageSize: "large",
+  },
+  {
+    name: "Clarks Inn Suites",
+    type: "Hospitality Partner",
+    image: "/images/ClarksInnSuites.png",
+    color: "from-purple-600 via-fuchsia-500 to-indigo-500",
+    imageSize: "large",
+  },
+  {
+    name: "Eco Club",
+    type: "Sustainability Partner",
+    image: "/images/eco-club.jpg",
+    color: "from-blue-600 via-indigo-500 to-purple-500",
+    imageSize: "large",
   },
 ];
 
@@ -143,7 +171,7 @@ const SponsorCard = ({ sponsor }) => {
 
 export default function SponsorsPage() {
   if (showRevealPage) {
-    return <RevealPage />;
+    return <RevealPage />; // Make sure RevealPage is imported or defined if showRevealPage becomes true
   }
 
   return (
