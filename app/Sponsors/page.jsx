@@ -14,12 +14,12 @@ const mainPartners = [
     image: "/images/bitsana.webp",
     color: "from-blue-600 via-indigo-500 to-purple-500",
   },
-  {
-    name: "National Informatics Centre (NIC)",
-    type: "Digital Infrastructure Partner",
-    image: "/images/nic.jpg",
-    color: "from-purple-600 via-fuchsia-500 to-indigo-500",
-  },
+  // {
+  //   name: "National Informatics Centre (NIC)",
+  //   type: "Digital Infrastructure Partner",
+  //   image: "/images/nic.jpg",
+  //   color: "from-purple-600 via-fuchsia-500 to-indigo-500",
+  // },
   {
     name: "Jharkhand Entrepreneurs Association (JEA)",
     type: "Official Startup Co-Partner",
